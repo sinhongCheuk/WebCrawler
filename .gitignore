@@ -1,0 +1,17 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Maven
+target/
+
+# 系统文件
+.DS_Store
+
+# 日志、缓存
+*.log
+*.class
+
+# 本地cookie或密钥文件
+cookie.txt
+
