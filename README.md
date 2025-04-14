@@ -1,12 +1,10 @@
-# WebCrawler 项目说明文档
+# WebCrawler 说明文档
 
 本项目基于 Java 实现了对多个网站的定向爬虫，包括豆瓣 Top250、Bilibili 排行榜、Missav 视频站点等。实现了静态解析（Jsoup）、动态渲染（Selenium）、反爬机制绕过、多标签页提取、Redis 排行榜、MySQL 数据持久化等功能。
 
 ---
 
-## 项目结构说明
-
-
+## 结构说明
 
 ```text
 WebCrawler/
