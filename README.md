@@ -6,6 +6,9 @@
 
 ## 项目结构说明
 
+
+
+```text
 WebCrawler/
 ├── Bilibili/
 │   ├── BilibiliMovieSelenium.java       # B站电影榜爬虫（Selenium）
@@ -25,6 +28,7 @@ WebCrawler/
 │   └── ImageCrawler.java                # 多线程图片下载器
 ├── pom.xml                              # Maven 依赖管理
 └── README.md                            # 项目说明文档
+```
 
 ---
 
@@ -65,7 +69,7 @@ WebCrawler/
 ---
 
 ## 数据库结构
-
+```text
 sql
 CREATE TABLE IF NOT EXISTS missav_movies (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -80,3 +84,4 @@ CREATE TABLE IF NOT EXISTS missav_movies (
     page_number INT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
